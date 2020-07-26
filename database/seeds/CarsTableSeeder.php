@@ -1285,7 +1285,7 @@ class CarsTableSeeder extends Seeder
                 'colour' => 'Orange',
                 'year' => 2020,
                 'type_id' => $mainline,
-                'series_id' => Series::where('name', 'HW Track Stars')->first()->id,
+                'series_id' => Series::where('name', 'Track Stars')->first()->id,
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
@@ -1300,7 +1300,7 @@ class CarsTableSeeder extends Seeder
                 'colour' => 'Yellow',
                 'year' => 2020,
                 'type_id' => $mainline,
-                'series_id' => Series::where('name', 'HW Track Stars')->first()->id,
+                'series_id' => Series::where('name', 'Track Stars')->first()->id,
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
@@ -2800,7 +2800,7 @@ class CarsTableSeeder extends Seeder
                 'colour' => 'Silver',
                 'year' => 2020,
                 'type_id' => $mainline,
-                'series_id' => Series::where('name', 'Experimotos')->first()->id,
+                'series_id' => Series::where('name', 'Experimotors')->first()->id,
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
@@ -4315,7 +4315,7 @@ class CarsTableSeeder extends Seeder
                 'colour' => '',
                 'year' => 2020,
                 'type_id' => $mainline,
-                'series_id' => Series::where('name', 'Olympics Games Tokyo 2020')->first()->id,
+                'series_id' => Series::where('name', 'Olympic Games Tokyo 2020')->first()->id,
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
@@ -4895,5 +4895,9 @@ class CarsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
         ];
+
+        foreach ($cars as $car):
+            Car::insert($car);
+        endforeach;
     }
 }

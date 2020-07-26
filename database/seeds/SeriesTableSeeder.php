@@ -56,6 +56,11 @@ class SeriesTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
+                'name' => 'HW Race Team',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
                 'name' => 'HW Screen Time',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
