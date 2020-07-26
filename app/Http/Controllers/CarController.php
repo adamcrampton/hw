@@ -14,7 +14,9 @@ class CarController extends Controller
      */
     public function index()
     {
-        //
+        return view('index', [
+            'cars' => Car::with(['type', 'series'])->get()
+        ]);
     }
 
     /**
