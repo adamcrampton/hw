@@ -3,9 +3,9 @@
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 
-use App\Models\Car;
-use App\Models\Series;
-use App\Models\Type;
+use App\Models\Cars\Car;
+use App\Models\Taxonomy\Series;
+use App\Models\Taxonomy\Type;
 
 class CarsTableSeeder extends Seeder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Cars;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -10,11 +10,11 @@ class Car extends Model
 
     public function series()
     {
-        return $this->belongsTo('App\Models\Series', 'series_id', 'id');
+        return $this->belongsTo('App\Models\Taxonomy\Series', 'series_id', 'id');
     }
 
     public function type()
     {
-        return $this->belongsTo('App\Models\Type', 'type_id', 'id');
+        return $this->belongsTo('App\Models\Taxonomy\Type', 'type_id', 'id');
     }
 }

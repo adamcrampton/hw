@@ -3,7 +3,7 @@
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 
-use App\Models\Type;
+use App\Models\Taxonomy\Type;
 
 class TypesTableSeeder extends Seeder
 {
