@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 
 class CarController extends Controller
 {
+    private $car;
+
+    public function __construct(Car $car)
+    {
+        $this->car = $car;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +22,8 @@ class CarController extends Controller
     public function index()
     {
         return view('index', [
-            'cars' => Car::with(['type', 'series'])->get()
+            'cars' => $this->car->with(['type', 'series'])
+                                ->get()
         ]);
     }
 

@@ -18,6 +18,7 @@ class CreateCarsTable extends Migration
             $table->unsignedInteger('number')->nullable();
             $table->text('name');
             $table->text('colour')->nullable();
+            $table->text('image')->nullable();
             $table->unsignedInteger('year')->nullable();
             $table->unsignedBigInteger('type_id');
             $table->unsignedBigInteger('series_id');
