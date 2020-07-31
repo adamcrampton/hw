@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'CarController@index')->name('index');
+Auth::routes();
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/', 'CarController@index')->name('index');
+});
