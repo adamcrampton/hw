@@ -2,16 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Cars\Car;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+use App\Models\Auth\User;
+use App\Models\Cars\Car;
 
 class CarController extends Controller
 {
     private $car;
+    private $user;
 
-    public function __construct(Car $car)
+    public function __construct(Car $car, User $user)
     {
         $this->car = $car;
+        $this->user = $user;
     }
 
     /**
@@ -21,9 +26,16 @@ class CarController extends Controller
      */
     public function index()
     {
+        $user = $this->user->find(Auth::user()->id);
+
         return view('index', [
             'cars' => $this->car->with(['type', 'series'])
-                                ->get()
+                                ->get(),
+            'user' => $user,
+            'owned' => $this->car->whereHas('owners', function ($q) use ($user) {
+                                    $q->where('users_id', $user->id);                  
+                                })
+                            ->get()
         ]);
     }
 
