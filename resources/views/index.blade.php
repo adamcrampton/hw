@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-<table class="table table-striped table-hover">
+<table id="table-cars" class="table table-striped table-hover">
     <thead>
         <th class="text-center">Number</th>
         <th>Name</th>
