@@ -12,27 +12,29 @@
         <th class="text-center">Number</th>
         <th>Name</th>
         <th>Colour</th>
+        <th clas="center">Photo</th>
         <th class="text-center">Year</th>
         <th>Type</th>
         <th>Series</th>
         <th class="text-center">Series Number</th>
         <th class="text-center">Treasure Hunt</th>
         <th class="text-center">Super Treasure Hunt</th>
-        <th class="text-center">Owned</th>
+        <th class="text-center"></th>
     </thead>
     <tbody>
         @foreach ($cars as $car)
             <tr>
-                <td class="text-center">{{ $car->number }}</td>
-                <td>{{ $car->name }}</td>
-                <td>{{ $car->colour }}</td>
-                <td class="text-center">{{ $car->year }}</td>
-                <td>{{ $car->type->name }}</td>
-                <td>{{ $car->series->name }}</td>
-                <td class="text-center">{{ $car->series_number }}</td>
-                <td class="text-center">{!! $car->treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
-                <td class="text-center">{!! $car->super_treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
-                <td class="text-center">{!! $car->owned ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
+                <td class="text-center" width="5%">{{ $car->number }}</td>
+                <td width="20%">{{ $car->name }}</td>
+                <td width="10%">{{ $car->colour }}</td>
+                <td width="10%" class="text-center"><img src="{{ $car->image ?? '/images/coming-soon.png' }}" class="img-fluid img-thumbnail"></td>
+                <td width="5%" class="text-center">{{ $car->year }}</td>
+                <td width="15%">{{ $car->type->name }}</td>
+                <td width="15%"d>{{ $car->series->name }}</td>
+                <td width="5%" class="text-center">{{ $car->series_number }}</td>
+                <td width="5%" class="text-center">{!! $car->treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
+                <td width="5%" class="text-center">{!! $car->super_treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
+                <td width="5%" class="text-center"><a id="notes-{{ $car->id }}" class="btn btn-app"><i class="far fa-clipboard"></i>Notes</a></td>
             </tr>    
         @endforeach
     </tbody>

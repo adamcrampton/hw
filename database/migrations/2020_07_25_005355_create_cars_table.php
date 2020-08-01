@@ -25,7 +25,6 @@ class CreateCarsTable extends Migration
             $table->unsignedInteger('series_number')->nullable();
             $table->unsignedTinyInteger('treasure_hunt')->default(0);
             $table->unsignedTinyInteger('super_treasure_hunt')->default(0);
-            $table->unsignedTinyInteger('owned')->default(0);
             $table->text('notes')->nullable();
             $table->timestamps();
         });
