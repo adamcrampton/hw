@@ -27,7 +27,11 @@
             <tr>
                 <td class="text-center" width="5%">{{ $car->number }}</td>
                 <td width="20%">{{ $car->name }}</td>
-                <td class="text-center" width="5%">{!! $owned->contains('id', $car->id) ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
+                <td class="text-center" width="5%">
+                    <a href="#" class="owned-toggle" data-car-id="{{ $car->id }}" data-user-id="{{ $user->id }}" data-owned="{{ $owned->contains('id', $car->id) }}">
+                        {!! $owned->contains('id', $car->id) ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}
+                    </a>
+                </td>
                 <td width="10%">{{ $car->colour }}</td>
                 <td width="10%" class="text-center">
                     <a href="https://via.placeholder.com/1200/FFFFFF.png?text=1" data-toggle="lightbox" data-title="{{ $car->name }}">
@@ -35,7 +39,7 @@
                     </a>
                 <td width="5%" class="text-center">{{ $car->year }}</td>
                 <td width="10%">{{ $car->type->name }}</td>
-                <td width="15%"d>{{ $car->series->name }}</td>
+                <td width="15%">{{ $car->series->name }}</td>
                 <td width="5%" class="text-center">{{ $car->series_number }}</td>
                 <td width="5%" class="text-center">{!! $car->treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>
                 <td width="5%" class="text-center">{!! $car->super_treasure_hunt ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}</td>

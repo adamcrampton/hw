@@ -1,24 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Taxonomy;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-use App\Models\Auth\User;
-use App\Models\Cars\Car;
+use App\Models\Taxonomy\Series;
 
-class CarController extends Controller
+class SeriesController extends Controller
 {
-    private $car;
-    private $user;
-
-    public function __construct(Car $car, User $user)
-    {
-        $this->car = $car;
-        $this->user = $user;
-    }
-
     /**
      * Display a listing of the resource.
      *
@@ -26,17 +16,7 @@ class CarController extends Controller
      */
     public function index()
     {
-        $user = $this->user->find(Auth::user()->id);
-
-        return view('index', [
-            'cars' => $this->car->with(['type', 'series'])
-                                ->get(),
-            'user' => $user,
-            'owned' => $this->car->whereHas('owners', function ($q) use ($user) {
-                                    $q->where('users_id', $user->id);                  
-                                })
-                            ->get()
-        ]);
+        //
     }
 
     /**
@@ -63,10 +43,10 @@ class CarController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Cars\Car  $car
+     * @param  \App\Models\Taxonomy\Series  $series
      * @return \Illuminate\Http\Response
      */
-    public function show(Car $car)
+    public function show(Series $series)
     {
         //
     }
@@ -74,10 +54,10 @@ class CarController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Cars\Car  $car
+     * @param  \App\Models\Taxonomy\Series  $series
      * @return \Illuminate\Http\Response
      */
-    public function edit(Car $car)
+    public function edit(Series $series)
     {
         //
     }
@@ -86,10 +66,10 @@ class CarController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Cars\Car  $car
+     * @param  \App\Models\Taxonomy\Series  $series
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Car $car)
+    public function update(Request $request, Series $series)
     {
         //
     }
@@ -97,10 +77,10 @@ class CarController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Cars\Car  $car
+     * @param  \App\Models\Taxonomy\Series  $series
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Car $car)
+    public function destroy(Series $series)
     {
         //
     }

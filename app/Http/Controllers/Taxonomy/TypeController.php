@@ -1,9 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Taxonomy;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 use App\Models\Taxonomy\Type;
-use Illuminate\Http\Request;
 
 class TypeController extends Controller
 {
