@@ -30,7 +30,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -45,7 +45,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -60,7 +60,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -75,7 +75,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -90,7 +90,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -105,7 +105,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -120,7 +120,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -135,7 +135,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -150,7 +150,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -165,7 +165,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' =>  10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -180,7 +180,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -195,7 +195,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -210,7 +210,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -225,7 +225,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -240,7 +240,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -255,7 +255,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -270,7 +270,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -285,7 +285,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -300,7 +300,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -315,7 +315,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -330,7 +330,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -345,7 +345,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -360,7 +360,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -375,7 +375,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -390,7 +390,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -405,7 +405,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -420,7 +420,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -435,7 +435,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -450,7 +450,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -465,7 +465,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -480,7 +480,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -495,7 +495,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -510,7 +510,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -525,7 +525,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -540,7 +540,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -555,7 +555,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -570,7 +570,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -585,7 +585,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -600,7 +600,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -615,7 +615,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -630,7 +630,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -645,7 +645,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -660,7 +660,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -675,7 +675,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -690,7 +690,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -705,7 +705,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -720,7 +720,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -735,7 +735,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -750,7 +750,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -765,7 +765,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -780,7 +780,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -795,7 +795,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -810,7 +810,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -825,7 +825,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -840,7 +840,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -855,7 +855,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -870,7 +870,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -885,7 +885,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -900,7 +900,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -915,7 +915,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -930,7 +930,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -945,7 +945,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -960,7 +960,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -975,7 +975,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -990,7 +990,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1005,7 +1005,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1020,7 +1020,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1035,7 +1035,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1050,7 +1050,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1065,7 +1065,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1080,7 +1080,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1095,7 +1095,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1110,7 +1110,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1125,7 +1125,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1140,7 +1140,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1155,7 +1155,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1170,7 +1170,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1185,7 +1185,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1200,7 +1200,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1215,7 +1215,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1230,7 +1230,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1245,7 +1245,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1260,7 +1260,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1275,7 +1275,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1290,7 +1290,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1305,7 +1305,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1320,7 +1320,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1335,7 +1335,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1350,7 +1350,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1365,7 +1365,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1380,7 +1380,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1395,7 +1395,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1410,7 +1410,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1425,7 +1425,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1440,7 +1440,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1455,7 +1455,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1470,7 +1470,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1485,7 +1485,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1500,7 +1500,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1515,7 +1515,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1530,7 +1530,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1545,7 +1545,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1560,7 +1560,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1575,7 +1575,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1590,7 +1590,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1605,7 +1605,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1620,7 +1620,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1635,7 +1635,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1650,7 +1650,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1665,7 +1665,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1680,7 +1680,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1695,7 +1695,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1710,7 +1710,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1725,7 +1725,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1740,7 +1740,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1755,7 +1755,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1770,7 +1770,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1785,7 +1785,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1800,7 +1800,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1815,7 +1815,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1830,7 +1830,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1845,7 +1845,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1860,7 +1860,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1875,7 +1875,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1890,7 +1890,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1905,7 +1905,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1920,7 +1920,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1935,7 +1935,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1950,7 +1950,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1965,7 +1965,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1980,7 +1980,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -1995,7 +1995,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2010,7 +2010,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2025,7 +2025,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2040,7 +2040,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2055,7 +2055,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2070,7 +2070,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2085,7 +2085,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2100,7 +2100,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2115,7 +2115,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2130,7 +2130,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2145,7 +2145,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2160,7 +2160,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2175,7 +2175,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2190,7 +2190,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2205,7 +2205,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2220,7 +2220,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2235,7 +2235,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2250,7 +2250,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2265,7 +2265,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2280,7 +2280,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2295,7 +2295,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2310,7 +2310,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2325,7 +2325,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2340,7 +2340,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2355,7 +2355,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2370,7 +2370,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2385,7 +2385,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2400,7 +2400,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2415,7 +2415,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2430,7 +2430,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2445,7 +2445,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2460,7 +2460,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2475,7 +2475,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2490,7 +2490,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2505,7 +2505,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2520,7 +2520,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2535,7 +2535,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2550,7 +2550,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2565,7 +2565,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2580,7 +2580,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2595,7 +2595,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2610,7 +2610,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2625,7 +2625,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2640,7 +2640,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2655,7 +2655,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2670,7 +2670,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2685,7 +2685,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2700,7 +2700,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2715,7 +2715,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2730,7 +2730,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2745,7 +2745,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2760,7 +2760,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2775,7 +2775,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2790,7 +2790,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2805,7 +2805,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2820,7 +2820,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2835,7 +2835,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2850,7 +2850,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2865,7 +2865,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2880,7 +2880,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2895,7 +2895,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2910,7 +2910,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2925,7 +2925,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2940,7 +2940,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2955,7 +2955,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2970,7 +2970,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -2985,7 +2985,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3000,7 +3000,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3015,7 +3015,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3030,7 +3030,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3045,7 +3045,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3060,7 +3060,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3075,7 +3075,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3090,7 +3090,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3105,7 +3105,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3120,7 +3120,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3135,7 +3135,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3150,7 +3150,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3165,7 +3165,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3180,7 +3180,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3195,7 +3195,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3210,7 +3210,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3225,7 +3225,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3240,7 +3240,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3255,7 +3255,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3270,7 +3270,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3285,7 +3285,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3300,7 +3300,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3315,7 +3315,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3330,7 +3330,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3345,7 +3345,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3360,7 +3360,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3375,7 +3375,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3390,7 +3390,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3405,7 +3405,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3420,7 +3420,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3435,7 +3435,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3450,7 +3450,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3465,7 +3465,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3480,7 +3480,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3495,7 +3495,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3510,7 +3510,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3525,7 +3525,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3540,7 +3540,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3555,7 +3555,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3570,7 +3570,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3585,7 +3585,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3600,7 +3600,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3615,7 +3615,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3630,7 +3630,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3645,7 +3645,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3660,7 +3660,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3675,7 +3675,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3690,7 +3690,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3705,7 +3705,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3720,7 +3720,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3735,7 +3735,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3750,7 +3750,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3765,7 +3765,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3780,7 +3780,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3795,7 +3795,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3810,7 +3810,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3825,7 +3825,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3840,7 +3840,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3855,7 +3855,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3870,7 +3870,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3885,7 +3885,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3900,7 +3900,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3915,7 +3915,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3930,7 +3930,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3945,7 +3945,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3960,7 +3960,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3975,7 +3975,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -3990,7 +3990,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4005,7 +4005,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4020,7 +4020,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4035,7 +4035,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4050,7 +4050,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4065,7 +4065,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4080,7 +4080,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4095,7 +4095,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4110,7 +4110,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4125,7 +4125,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4140,7 +4140,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4155,7 +4155,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4170,7 +4170,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4185,7 +4185,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4200,7 +4200,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4215,7 +4215,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4230,7 +4230,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4245,7 +4245,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4260,7 +4260,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4275,7 +4275,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4290,7 +4290,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4305,7 +4305,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4320,7 +4320,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4335,7 +4335,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4350,7 +4350,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4365,7 +4365,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4380,7 +4380,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4395,7 +4395,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4410,7 +4410,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4425,7 +4425,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4440,7 +4440,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4455,7 +4455,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4470,7 +4470,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4485,7 +4485,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4500,7 +4500,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4515,7 +4515,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4530,7 +4530,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 7,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4545,7 +4545,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4560,7 +4560,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4575,7 +4575,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4590,7 +4590,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4605,7 +4605,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4620,7 +4620,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4635,7 +4635,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4650,7 +4650,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4665,7 +4665,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4680,7 +4680,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 6,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4695,7 +4695,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 2,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4710,7 +4710,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4725,7 +4725,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4740,7 +4740,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4755,7 +4755,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 4,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4770,7 +4770,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 8,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4785,7 +4785,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 9,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4800,7 +4800,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 1,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4815,7 +4815,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4830,7 +4830,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4845,7 +4845,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 1,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4860,7 +4860,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 1,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4875,7 +4875,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 5,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -4890,7 +4890,7 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 3,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => '',
+                'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
