@@ -21,7 +21,7 @@ class CarController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a listing of cars.
      *
      * @return \Illuminate\Http\Response
      */
@@ -41,17 +41,17 @@ class CarController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new car.
      *
      * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        //
+        return view('cars.create', []);
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created car in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -62,47 +62,44 @@ class CarController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified car.
      *
      * @param  \App\Models\Cars\Car  $car
      * @return \Illuminate\Http\Response
      */
-    public function show(Car $car)
+    public function show($id)
     {
-        //
+        $car = $this->car->find($id);
+
+        return view('cars.show', [
+            'car' => $car
+        ]);
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified car.
      *
      * @param  \App\Models\Cars\Car  $car
      * @return \Illuminate\Http\Response
      */
-    public function edit(Car $car)
+    public function edit($id)
     {
-        //
+        $car = $this->car->find($id);
+
+        return view('cars.edit', [
+            'car' => $car
+        ]);
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified car in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\Cars\Car  $car
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Car $car)
+    public function update(Request $request, $id)
     {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Cars\Car  $car
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Car $car)
-    {
-        //
+        $car = $this->car->find($id);
     }
 }
