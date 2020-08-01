@@ -11,7 +11,7 @@
     <thead>
         <th class="text-center">Number</th>
         <th>Name</th>
-        <th>Owned</th>
+        <th class="text-center">Owned</th>
         <th>Colour</th>
         <th class="center">Photo</th>
         <th class="text-center">Year</th>
@@ -29,7 +29,7 @@
                 <td width="20%">{{ $car->name }}</td>
                 <td class="text-center" width="5%">
                     <a href="#" class="owned-toggle" data-car-id="{{ $car->id }}" data-user-id="{{ $user->id }}" data-owned="{{ $owned->contains('id', $car->id) }}">
-                        {!! $owned->contains('id', $car->id) ? '<i class="fa fa-check text-success"></i>' : '<i class="fa fa-times text-danger"></i>' !!}
+                        {!! $owned->contains('id', $car->id) ? '<i class="fas fa-check-circle text-success"></i>' : '<i class="fas fa-times-circle text-danger"></i>' !!}
                     </a>
                 </td>
                 <td width="10%">{{ $car->colour }}</td>

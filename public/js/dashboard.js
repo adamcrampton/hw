@@ -12,8 +12,10 @@ $(document).ready(function () {
 
     // Owned AJAX toggle.
     $(document).on('click', 'a.owned-toggle', function (e) {
-        e.preventDefault;
+        e.preventDefault();
 
+        const $button = $(this);
+        const $icon = $(this).find('i');
         const car = $(this).attr('data-car-id');
         const user = $(this).attr('data-user-id');
         const owned = $(this).attr('data-owned');
@@ -22,6 +24,7 @@ $(document).ready(function () {
         let formData = new FormData;
         formData.append('car', car);
         formData.append('user', user);
+        formData.append('owned', owned);
 
         $.ajax({
             async: true,
@@ -31,37 +34,31 @@ $(document).ready(function () {
             method: 'POST',
             data: formData,
             beforeSend: function(jqXHR, settings) {
-                $(this).find('i').removeClass('fa-check')
-                                    .removeClass('fa-times')
-                                    .addClass('fas')
-                                    .addClass('fa-compact-disc')
+                $icon.removeClass('fa-check')
+                        .removeClass('fa-times-circle fa-check-circle text-danger text-success')
+                        .addClass('fas fa-compact-disc')
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.log(errorThrown);
-                $(this).find('i').removeClass('fas')
-                                    .removeClass('fa-compact-disc');
+                $icon.removeClass('fa-compact-disc');
 
                 if (owned) {
-                    $(this).addClass('fa-check');
+                    $icon.addClass('fa-check-circle text-success');
                 } else {
-                    $(this).addClass('fa-times');
+                    $icon.addClass('fa-times-circle text-danger');
                 }
-                                    
             },
             success: function(data, textStatus, jqXHR) {
-                $(this).find('i').removeClass('fas')
-                .removeClass('fa-compact-disc');
+                $icon.removeClass('fa-compact-disc');
 
-                if (owned) {
-                $(this).addClass('fa-times');
+                if (owned === '1') {
+                    $icon.addClass('fa-times-circle text-danger');
+                    $button.attr('data-owned', '0');
                 } else {
-                $(this).addClass('fa-check');
+                    $icon.addClass('fa-check-circle text-success');
+                    $button.attr('data-owned', '1');
                 }
-            },
-            complete: function(jqXHR, textStatus)
-            {
-
             }
-});
+        });
     });
 });
