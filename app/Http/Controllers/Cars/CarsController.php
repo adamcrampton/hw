@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\Auth\User;
 use App\Models\Cars\Car;
 
-class CarController extends Controller
+class CarsController extends Controller
 {
     private $car;
     private $user;
