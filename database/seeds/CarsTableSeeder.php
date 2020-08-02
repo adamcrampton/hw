@@ -757,7 +757,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 27,
                 'name' => 'Dune It Up',
-                'colour' => 'Silver',
+                'colour' => 'Black',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -1073,6 +1073,21 @@ class CarsTableSeeder extends Seeder
                 'number' => 40,
                 'name' => '71 El Camino',
                 'colour' => 'Grey',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'HW Dream Garage')->first()->id,
+                'series_number' => 8,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'number' => 40,
+                'name' => '71 El Camino',
+                'colour' => 'Red',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -2105,6 +2120,21 @@ class CarsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
+                'number' => 86,
+                'name' => 'Beat All',
+                'colour' => 'Red',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'X-Raycers')->first()->id,
+                'series_number' => 3,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
                 'number' => 87,
                 'name' => 'Cloak and Dagger',
                 'colour' => 'Green',
@@ -2375,6 +2405,21 @@ class CarsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
+                'number' => 100,
+                'name' => 'Nerve Hammer',
+                'colour' => 'Blue',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'Track Stars')->first()->id,
+                'series_number' => 4,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
                 'number' => 101,
                 'name' => 'Circle Tracker',
                 'colour' => 'White',
@@ -2510,6 +2555,21 @@ class CarsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
+                'number' => 108,
+                'name' => 'Donut Drifter',
+                'colour' => 'Blue',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'Fast Foodie')->first()->id,
+                'series_number' => 1,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
                 'number' => 109,
                 'name' => 'Mod Rod',
                 'colour' => 'Red',
@@ -2630,6 +2690,21 @@ class CarsTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ],
             [
+                'number' => 116,
+                'name' => '65 Mustang 2+2 Fastback',
+                'colour' => 'Light Blue',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'HW Speed Graphics')->first()->id,
+                'series_number' => 4,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => 'Gulf livery',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
                 'number' => 117,
                 'name' => 'i-Believe',
                 'colour' => 'Red',
@@ -2646,7 +2721,7 @@ class CarsTableSeeder extends Seeder
             ],
             [
                 'number' => 118,
-                'name' => 'Audi RS5 Couple',
+                'name' => 'Audi RS5 Coupe',
                 'colour' => 'Blue',
                 'image' => null,
                 'year' => 2020,
@@ -2661,7 +2736,7 @@ class CarsTableSeeder extends Seeder
             ],
             [
                 'number' => 118,
-                'name' => 'Audi RS5 Couple',
+                'name' => 'Audi RS5 Coupe',
                 'colour' => 'Black',
                 'image' => null,
                 'year' => 2020,
@@ -2708,6 +2783,21 @@ class CarsTableSeeder extends Seeder
                 'number' => 120,
                 'name' => '49 Ford F1',
                 'colour' => 'Light Blue',
+                'image' => null,
+                'year' => 2020,
+                'type_id' => $mainline,
+                'series_id' => Series::where('name', 'Rod Squad')->first()->id,
+                'series_number' => 5,
+                'treasure_hunt' => 0,
+                'super_treasure_hunt' => 0,
+                'notes' => null,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ],
+            [
+                'number' => 120,
+                'name' => '49 Ford F1',
+                'colour' => 'Metallic Green',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -3172,7 +3262,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 144,
                 'name' => '19 Corvette ZR1 Convertible',
-                'colour' => 'Red',
+                'colour' => 'Orange',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -3426,7 +3516,7 @@ class CarsTableSeeder extends Seeder
             ],
             [
                 'number' => 160,
-                'name' => 'Croc Rode',
+                'name' => 'Croc Rod',
                 'colour' => 'Green',
                 'image' => null,
                 'year' => 2020,
@@ -4072,7 +4162,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 201,
                 'name' => '52 Chevy',
-                'colour' => '',
+                'colour' => 'Flat Blue',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -4087,7 +4177,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 202,
                 'name' => '69 Chevy Pickup',
-                'colour' => '',
+                'colour' => 'Olive',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -4095,21 +4185,6 @@ class CarsTableSeeder extends Seeder
                 'series_number' => 10,
                 'treasure_hunt' => 0,
                 'super_treasure_hunt' => 0,
-                'notes' => null,
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ],
-            [
-                'number' => 202,
-                'name' => '69 Chevy Pickup',
-                'colour' => '',
-                'image' => null,
-                'year' => 2020,
-                'type_id' => $mainline,
-                'series_id' => Series::where('name', 'HW Hot Trucks')->first()->id,
-                'series_number' => 10,
-                'treasure_hunt' => 0,
-                'super_treasure_hunt' => 1,
                 'notes' => null,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -4252,7 +4327,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 212,
                 'name' => 'Tricera-Truck',
-                'colour' => '',
+                'colour' => 'Blue',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -4282,7 +4357,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 214,
                 'name' => 'Astana Hotto',
-                'colour' => '',
+                'colour' => 'White  ',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -4327,7 +4402,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 217,
                 'name' => 'Dodge Charger Drift',
-                'colour' => '',
+                'colour' => 'Flat Blue',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
@@ -4356,8 +4431,8 @@ class CarsTableSeeder extends Seeder
             ],
             [
                 'number' => 219,
-                'name' => '49 Merge',
-                'colour' => '',
+                'name' => '49 Merc',
+                'colour' => 'Metallic Orange',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
