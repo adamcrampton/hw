@@ -242,12 +242,11 @@ return [
             'icon' => 'fas fa-tachometer-alt'
             // 'can'  => '',
         ],
-        // ['header' => 'account_settings'],
-        // [
-        //     'text' => 'profile',
-        //     'route'  => 'user.profile',
-        //     'icon' => 'fas fa-fw fa-user',
-        // ],
+        [
+            'text' => 'Create Car',
+            'route'  => 'cars.create',
+            'icon' => 'fas fa-car',
+        ],
         // [
         //     'text' => 'change_password',
         //     'route'  => 'user.password',

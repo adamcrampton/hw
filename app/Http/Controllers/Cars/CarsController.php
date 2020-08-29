@@ -8,15 +8,26 @@ use Illuminate\Support\Facades\Auth;
 
 use App\Models\Auth\User;
 use App\Models\Cars\Car;
+use App\Models\Taxonomy\Series;
+use App\Models\Taxonomy\Type;
 
 class CarsController extends Controller
 {
     private $car;
+    private $series;
+    private $type;
     private $user;
 
-    public function __construct(Car $car, User $user)
+    public function __construct(
+        Car $car, 
+        Series $series,
+        Type $type,
+        User $user
+    )
     {
         $this->car = $car;
+        $this->series = $series;
+        $this->type = $type;
         $this->user = $user;
     }
 
@@ -47,7 +58,20 @@ class CarsController extends Controller
      */
     public function create()
     {
-        return view('cars.create', []);
+        $years = [];
+
+        for ($i=1968; $i < 2022; $i++):
+            $years[$i] = $i;
+        endfor;
+
+        $series = $this->series->all()->pluck('name', 'id');
+        $type = $this->type->all()->pluck('name', 'id');
+
+        return view('cars.create', [
+            'series' => $series,
+            'type' => $type,
+            'years' => $years
+        ]);
     }
 
     /**
@@ -58,7 +82,22 @@ class CarsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->car->create([
+            'number' => $request->number ?? 0,
+            'name' => $request->name ?? 'TBC',
+            'colour' => $request->colour ?? 'TBC',
+            'year' => $request->year ?? date('Y'),
+            'series_id' => $request->series,
+            'type_id' => $request->type,
+            'series_number' => $request->series ?? 0,
+            'treasure_hunt' => $request->has('treasure_hunt') ?? 0,
+            'super_treasure_hunt' => $request->has('super_treasure_hunt') ?? 0,
+            'notes' => $request->notes ?? null
+        ]);
+
+        return redirect()->route('index')->with([
+            'success' => 'Successfully created car'
+        ]);
     }
 
     /**
@@ -86,8 +125,18 @@ class CarsController extends Controller
     {
         $car = $this->car->find($id);
 
+        for ($i=1968; $i < 2022; $i++):
+            $years[$i] = $i;
+        endfor;
+
+        $series = $this->series->all()->pluck('name', 'id');
+        $type = $this->type->all()->pluck('name', 'id');
+
         return view('cars.edit', [
-            'car' => $car
+            'car' => $car,
+            'series' => $series,
+            'type' => $type,
+            'years' => $years
         ]);
     }
 
@@ -101,5 +150,22 @@ class CarsController extends Controller
     public function update(Request $request, $id)
     {
         $car = $this->car->find($id);
+
+        $car->update([
+            'name' => $request->name ?? 'TBC',
+            'number' => $request->number ?? 0,
+            'colour' => $request->colour ?? 'TBC',
+            'year' => $request->year ?? date('Y'),
+            'series_id' => $request->series,
+            'type_id' => $request->type,
+            'series_number' => $request->series ?? 0,
+            'treasure_hunt' => $request->has('treasure_hunt') ?? 0,
+            'super_treasure_hunt' => $request->has('super_treasure_hunt') ?? 0,
+            'notes' => $request->notes ?? null
+        ]);
+
+        return redirect()->back()->with([
+            'success' => 'Successfully updated car'
+        ]);
     }
 }

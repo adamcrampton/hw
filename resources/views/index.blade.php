@@ -3,6 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
+@include('common.status')
     <h1>Dashboard</h1>
 @stop
 

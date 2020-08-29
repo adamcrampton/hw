@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Car extends Model
 {
     protected $table = 'cars';
+    protected $fillable = [
+        'number', 'name', 'colour', 'image', 'year', 'type_id', 'series_id', 'series_number', 'treasure_hunt', 'super_treasure_hunt', 'notes'
+    ];
 
     public function owners()
     {

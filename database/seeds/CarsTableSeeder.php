@@ -817,7 +817,7 @@ class CarsTableSeeder extends Seeder
             [
                 'number' => 29,
                 'name' => 'Hyper Rocker',
-                'colour' => 'Silver Chrome',
+                'colour' => 'White',
                 'image' => null,
                 'year' => 2020,
                 'type_id' => $mainline,
