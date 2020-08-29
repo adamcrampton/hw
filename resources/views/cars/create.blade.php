@@ -49,6 +49,10 @@
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label for="series_number">Series Number</label>
+                                <input name="series_number" type="series_number" value="{{ $car->series_number }}" class="form-control" id="series_number" placeholder="Enter Series Number" autocomplete="off">
+                            </div>
+                            <div class="form-group">
                                 <label for="type">Type</label>
                                 <select class="form-control" name="type">
                                     <option value="">Select a type</option>

@@ -89,7 +89,7 @@ class CarsController extends Controller
             'year' => $request->year ?? date('Y'),
             'series_id' => $request->series,
             'type_id' => $request->type,
-            'series_number' => $request->series ?? 0,
+            'series_number' => $request->series_number ?? 0,
             'treasure_hunt' => $request->has('treasure_hunt') ?? 0,
             'super_treasure_hunt' => $request->has('super_treasure_hunt') ?? 0,
             'notes' => $request->notes ?? null
@@ -158,7 +158,7 @@ class CarsController extends Controller
             'year' => $request->year ?? date('Y'),
             'series_id' => $request->series,
             'type_id' => $request->type,
-            'series_number' => $request->series ?? 0,
+            'series_number' => $request->series_number ?? 0,
             'treasure_hunt' => $request->has('treasure_hunt') ?? 0,
             'super_treasure_hunt' => $request->has('super_treasure_hunt') ?? 0,
             'notes' => $request->notes ?? null
